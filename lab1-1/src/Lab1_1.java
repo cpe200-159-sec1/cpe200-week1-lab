@@ -7,6 +7,7 @@ public class Lab1_1 {
     {
         /*
           Implement your code here
+          TEST CHANGE CODE
         */
         return input_a;
     }
