@@ -20,7 +20,7 @@ public class Lab1_5Test {
 
     @Test
     public void sumSquareDifferenceOne() throws Exception {
-        assertEquals(1, l5.sumSquareDifference(1));
+        assertEquals(0, l5.sumSquareDifference(1));
     }
 
     @Test
