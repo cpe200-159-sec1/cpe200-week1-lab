@@ -7,9 +7,7 @@ public class Lab1_5 {
 
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
+        int ii = 0;
         return 0;
     }
 
