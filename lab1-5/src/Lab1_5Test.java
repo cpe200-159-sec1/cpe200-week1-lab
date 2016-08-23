@@ -3,9 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by pruet on 8/8/2559.
- */
+
 public class Lab1_5Test {
     private Lab1_5 l5;
     @Before
