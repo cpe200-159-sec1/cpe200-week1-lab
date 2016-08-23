@@ -5,10 +5,9 @@ public class Lab1_2 {
 
     public boolean isEquals(int input_a, int input_b)
     {
-        /*
-          Implement your code here
-        */
-        return true;
+        if(input_a == input_b){
+        return true;}
+        else{ return false;}
     }
 
     public static void main(String[] args) {
