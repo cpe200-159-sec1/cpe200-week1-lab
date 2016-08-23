@@ -7,7 +7,7 @@ public class Lab1_3 {
     {
         /*
           Implement your code here
-        */
+        */for(int i=0;i<inputs.length;i++)if(inputs[0]<inputs[i])inputs[0]=inputs[i];
         return inputs[0];
     }
 
