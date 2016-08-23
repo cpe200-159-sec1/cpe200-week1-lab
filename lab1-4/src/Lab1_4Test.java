@@ -1,7 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import static org.junit.Assert.*;
 
 public class Lab1_4Test {

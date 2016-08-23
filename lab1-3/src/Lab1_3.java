@@ -5,10 +5,16 @@ public class Lab1_3 {
 
     public int findMax(int[] inputs)
     {
-        for (int i=1;i<inputs.length;i++)
-        {
-            if (inputs[0]<inputs[i]) inputs[0] = inputs[i];
-        }
+        int max=0;
+        int a;
+        for (int i=0;i<inputs.length;i++)
+            for (int j=i+1;j<inputs.length;j++)
+                if (inputs[j] > inputs[i])
+                {
+                    a = inputs[i];
+                    inputs[i] = inputs[j];
+                    inputs[j] = a;
+                }
         return inputs[0];
     }
 

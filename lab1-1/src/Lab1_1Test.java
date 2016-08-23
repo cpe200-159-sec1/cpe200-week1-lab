@@ -4,9 +4,8 @@ import org.junit.Test;
 import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import static org.junit.Assert.*;
 
-/**
- * Created by pruet on 8/8/2559.
- */
+
+
 public class Lab1_1Test {
     private Lab1_1 l1;
     @Before
