@@ -10,7 +10,20 @@ public class Lab1_5 {
         /**
          * Your code here
          */
-        return 0;
+        int sum1=0;
+        int sum2=0;
+        int n;
+
+
+        for(int j=1;j<=i;j++){
+            n=j*j;
+            sum1=sum1+n;
+        }
+        n=0;
+        for(int j=1;j<=i;j++){
+            n=n+j;
+        }
+        sum2=n*n; return sum2-sum1;
     }
 
     public static void main(String[] args) {
