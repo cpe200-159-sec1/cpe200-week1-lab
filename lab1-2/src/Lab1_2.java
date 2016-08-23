@@ -8,6 +8,7 @@ public class Lab1_2 {
         /*
           Implement your code here
         */if(input_a!=input_b)return false;
+
         return true;
     }
 

@@ -10,6 +10,7 @@ public class Lab1_1 {
           TEST CHANGE CODE
         */
         if(input_a<input_b)return input_b;
+
         return input_a;
     }
 
