@@ -10,6 +10,7 @@ public class Lab1_1 {
         else return input_b;
     }
 
+    
     public static void main(String[] args) {
         Lab1_1 l = new Lab1_1();
         System.out.printf("Max value is %d\n", l.chooseMax(3, 4));
