@@ -5,17 +5,24 @@
  */
 public class Lab1_5 {
 
+    public static void main(String[] args) {
+        Lab1_5 l = new Lab1_5();
+        System.out.printf("Result is %d\n", l.sumSquareDifference(10));
+    }
+
     public int sumSquareDifference(int i)
     {
         /**
          * Your code here
          */
-        return 0;
-    }
+        int sum1 = 0;
+        int sum2 = 0;
+        for (int n = 1; n <= i; n++) {
+            sum1 += n * n;
+            sum2 += n;
+        }
 
-    public static void main(String[] args) {
-        Lab1_5 l = new Lab1_5();
-        System.out.printf("Result is %d\n", l.sumSquareDifference(10));
+        return ((sum2 * sum2) - sum1);
     }
 }
 
