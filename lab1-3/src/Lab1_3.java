@@ -11,6 +11,7 @@ public class Lab1_3 {
                 max = inputs[i];
             }
         }
+
         return max;
     }
 
