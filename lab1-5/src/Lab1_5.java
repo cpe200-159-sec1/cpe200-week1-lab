@@ -5,12 +5,16 @@
  */
 public class Lab1_5 {
 
+
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        int sum_a=0,sum_b=0;
+        for(int j=1;j<=i;j++){
+            sum_a+=(j*j);
+            sum_b+=j;
+        }
+        sum_b*=sum_b;
+        return sum_b-sum_a;
     }
 
     public static void main(String[] args) {
