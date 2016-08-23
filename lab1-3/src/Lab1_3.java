@@ -5,10 +5,13 @@ public class Lab1_3 {
 
     public int findMax(int[] inputs)
     {
-        /*
-          Implement your code here
-        */
-        return inputs[0];
+        int max=0;
+        for(int n=0;n<inputs.length;n++)
+        {
+            if(max<inputs[n])
+                max=inputs[n];
+        }
+        return max;
     }
 
     public static void main(String[] args) {
