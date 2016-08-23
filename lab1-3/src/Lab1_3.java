@@ -8,6 +8,15 @@ public class Lab1_3 {
         /*
           Implement your code here
         */
+        int size = inputs.length;
+
+        for(int i=0;i<size;i++){
+            if(inputs[i]>inputs[0]){
+                inputs[0]=inputs[i];
+            }
+
+        }
+
         return inputs[0];
     }
 
