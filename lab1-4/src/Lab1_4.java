@@ -3,17 +3,18 @@
  */
 public class Lab1_4 {
 
-    public float findAverage(int[] inputs)
-    {
-        /*
-          Implement your code here
-        */
-        return 0.0f;
-    }
-
     public static void main(String[] args) {
         Lab1_4 l = new Lab1_4();
         int[] inputs = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.printf("Average value is %f\n", l.findAverage(inputs));
+    }
+
+    public float findAverage(int[] inputs) {
+        float sum = 0;
+        for (int number :
+                inputs) {
+            sum += number;
+        }
+        return sum / inputs.length;
     }
 }
