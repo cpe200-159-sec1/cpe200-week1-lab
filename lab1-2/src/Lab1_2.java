@@ -5,9 +5,8 @@ public class Lab1_2 {
 
     public boolean isEquals(int input_a, int input_b)
     {
-        /*
-          Implement your code here
-        */
+        if(input_a != input_b)
+            return false;
         return true;
     }
 
