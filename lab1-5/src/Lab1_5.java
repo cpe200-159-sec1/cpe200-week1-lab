@@ -5,12 +5,38 @@
  */
 public class Lab1_5 {
 
-    public int sumSquareDifference(int i)
+    public int sumSquareDifference(int input)
     {
         /**
          * Your code here
          */
-        return 0;
+        //int size = inputs.length;
+
+        int sum1=0,sum2=0,df=0;
+
+        if(0==input){
+            df=1;
+            return df;
+        }
+
+
+        for(int i=1;i <= input;i++){
+            sum1 += i;
+        }
+        sum1=sum1*sum1;
+
+        for(int i=1;i <= input;i++){
+            sum2 += i*i;
+        }
+
+        df = sum1-sum2;
+
+        if(df < 0){
+            df = 0-df;
+        }
+
+
+        return df;
     }
 
     public static void main(String[] args) {

@@ -8,6 +8,17 @@ public class Lab1_1 {
         /*
           Implement your code here
         */
+        int temp=0;
+
+        if(input_b>=input_a){
+            temp=input_a;
+            input_a=input_b;
+            input_b=temp;
+        }
+
+
+
+
         return input_a;
     }
 

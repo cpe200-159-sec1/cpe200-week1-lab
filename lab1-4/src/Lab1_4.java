@@ -8,7 +8,20 @@ public class Lab1_4 {
         /*
           Implement your code here
         */
-        return 0.0f;
+
+        int size = inputs.length;
+        float sum=0,average=0;
+
+
+        for(int i=0;i<size;i++){
+            sum+=inputs[i];
+        }
+
+        average=(sum/size);
+
+
+
+        return average;
     }
 
     public static void main(String[] args) {
