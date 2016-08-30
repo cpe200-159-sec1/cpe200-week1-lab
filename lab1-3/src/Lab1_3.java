@@ -3,17 +3,18 @@
  */
 public class Lab1_3 {
 
-    public int findMax(int[] inputs)
-    {
-        /*
-          Implement your code here
-        */
-        return inputs[0];
-    }
-
     public static void main(String[] args) {
         Lab1_3 l = new Lab1_3();
         int[] inputs = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.printf("Max value is %d\n", l.findMax(inputs));
+    }
+
+    public int findMax(int[] inputs) {
+        int max = inputs[0];
+        for (int a :
+                inputs) {
+            max = Math.max(max, a);
+        }
+        return max;
     }
 }
