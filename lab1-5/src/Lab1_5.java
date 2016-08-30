@@ -14,7 +14,7 @@ public class Lab1_5 {
 
         int sum1=0,sum2=0,df=0;
 
-        if(1==input){
+        if(0==input){
             df=1;
             return df;
         }
