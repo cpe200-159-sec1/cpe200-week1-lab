@@ -8,7 +8,9 @@ public class Lab1_4 {
         /*
           Implement your code here
         */
-        return 0.0f;
+        float avg=0;
+        for (int i=0;i<inputs.length;i++)avg+=inputs[i];
+        return avg/inputs.length;
     }
 
     public static void main(String[] args) {

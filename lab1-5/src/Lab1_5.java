@@ -10,7 +10,15 @@ public class Lab1_5 {
         /**
          * Your code here
          */
-        return 0;
+        int sqofs=0,sofsq=0;
+        for(int count=1;count<=i;count++)
+        {
+            sqofs+=count;
+            sofsq+=count*count;
+
+        }
+        sqofs*=sqofs;
+        return sqofs-sofsq;
     }
 
     public static void main(String[] args) {
