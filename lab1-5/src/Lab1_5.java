@@ -7,10 +7,9 @@ public class Lab1_5 {
 
     public int sumSquareDifference(int i)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        int a = i*(i+1)/2;
+        int b = i*(i+1)*(2*i+1)/6;
+        return a*a-b;
     }
 
     public static void main(String[] args) {

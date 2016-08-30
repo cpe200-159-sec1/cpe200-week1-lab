@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 /**
  * Implement findMax method which receives an array of integer and return the maximum number in the array.
  */
@@ -5,10 +7,10 @@ public class Lab1_3 {
 
     public int findMax(int[] inputs)
     {
-        /*
-          Implement your code here
-        */
-        return inputs[0];
+        int ans = inputs[0];
+        for(int i : inputs)
+            ans = Math.max(ans,i);
+        return ans;
     }
 
     public static void main(String[] args) {
