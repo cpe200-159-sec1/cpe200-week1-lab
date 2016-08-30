@@ -1,14 +1,17 @@
 /**
- * Implement findAverage method which receives an array of integer and return the average of the numbers in the array.
+ * Implement findAvives an arraerage method which recey of integer and return the average of the numbers in the array.
  */
 public class Lab1_4 {
 
     public float findAverage(int[] inputs)
     {
-        /*
-          Implement your code here
-        */
-        return 0.0f;
+        float sum=0;
+        float avg = 0;
+        for(int i = 0; i< inputs.length; i++){
+        sum += inputs[i];
+        }
+        avg = sum/inputs.length;
+        return avg;
     }
 
     public static void main(String[] args) {
